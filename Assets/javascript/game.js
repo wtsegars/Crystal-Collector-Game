@@ -13,29 +13,46 @@ $('#green-rupee').on('click', function() {
     totalPoints += parseInt(greenRupee);
     console.log(totalPoints);
     $('#total').html(totalPoints);
+    if (totalPoints === targetNumber) {
+        winCondition();
+    }
+    else if (totalPoints > targetNumber) {
+        loseCondition();
+    }
 });
 $('#red-rupee').on('click', function() {
     totalPoints += parseInt(redRupee);
     console.log(totalPoints);
     $('#total').html(totalPoints);
+    if (totalPoints === targetNumber) {
+        winCondition();
+    }
+    else if (totalPoints > targetNumber) {
+        loseCondition();
+    }
 });
 $('#blue-rupee').on('click', function() {
     totalPoints += parseInt(blueRupee);
     console.log(totalPoints);
     $('#total').html(totalPoints);
+    if (totalPoints === targetNumber) {
+        winCondition();
+    }
+    else if (totalPoints > targetNumber) {
+        loseCondition();
+    }
 });
 $('#purple-rupee').on('click', function() {
     totalPoints += parseInt(purpleRupee);
     console.log(totalPoints);
     $('#total').html(totalPoints);
+    if (totalPoints === targetNumber) {
+        winCondition();
+    }
+    else if (totalPoints > targetNumber) {
+        loseCondition();
+    }
 });
-
-if (totalPoints === targetNumber) {
-    winCondition();
-}
-else if (totalPoints > targetNumber) {
-    loseCondition();
-}
 
 function winCondition() {
     alert("Congradulations You Win!");
