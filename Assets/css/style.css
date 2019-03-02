@@ -15,10 +15,22 @@ h1 {
 }
 .img-align {
     margin-left: 350px;
+    margin-top: -200px;
 }
 .img1 {
     margin-left: 25px;
 }
 .img2 {
     margin-left: 700px;
+}
+.numeral-text {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+}
+.target {
+    margin-left: 350px;
+}
+.total {
+    margin-left: 300px;
 }
