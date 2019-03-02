@@ -1,0 +1,24 @@
+body {
+    background-color: green;
+    border: gold;
+    border-width: 2px;
+    border-style: double;
+}
+h1 {
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 16px;
+}
+.img-align {
+    margin-left: 350px;
+}
+.img1 {
+    margin-left: 25px;
+}
+.img2 {
+    margin-left: 700px;
+}
