@@ -31,10 +31,17 @@ $('#purple-rupee').on('click', function() {
 });
 
 if (totalPoints === targetNumber) {
-    alert("Congradulations You Win!");
-    alert("Refresh the page to play again.");
+    winCondition();
 }
 else if (totalPoints > targetNumber) {
+    loseCondition();
+}
+
+function winCondition() {
+    alert("Congradulations You Win!");
+    alert("Refresh the page to play again.");
+};
+function loseCondition() {
     alert("Sorry you lose.");
     alert("Refresh the page to play again.");
-}
+};
